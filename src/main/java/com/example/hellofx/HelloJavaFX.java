@@ -10,20 +10,20 @@ import javafx.stage.Stage;
 public class HelloJavaFX extends Application {
     @Override
     public void start(Stage stage) {
-        Label message = new Label("Welcome, Grace Mulenga!");
+        Label message = new Label("Welcome, Habibi Lumbwa!");
         Button button = new Button("Start");
         Button resetButton = new Button("Reset");
         button.setOnAction(event ->
                 message.setText("Great! You clicked the button.")
         );
         resetButton.setOnAction(event ->
-                message.setText("Welcome, Grace Mulenga!")
+                message.setText("Welcome, Habibi Lumbwa!")
         );
         VBox layout = new VBox(20);
         layout.setAlignment(Pos.CENTER);
         layout.getChildren().addAll(message, button, resetButton);
         Scene scene = new Scene(layout, 500, 300);
-        stage.setTitle("My First JavaFX Application -202504933");
+        stage.setTitle("My First JavaFX Application -202508259");
         stage.setScene(scene);
         stage.show();
     }
